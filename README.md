@@ -1,4 +1,3 @@
-<img width="795" height="632" alt="image" src="https://github.com/user-attachments/assets/163eb515-e4a7-440f-9355-2b697db20de8" /># Perceptron-model
 # 🧠 Perceptron Model (Python)
 
 This project implements a Perceptron algorithm from scratch using Python. It is a basic model in Machine Learning used for binary classification.
