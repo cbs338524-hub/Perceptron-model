@@ -73,7 +73,6 @@ Accuracy: 1.0
 ## 📚 Conclusion
 Perceptron is simple and effective for basic classification but limited for complex problems.
 
----
 
-## 👨‍💻 Author
-Your Name
+
+
