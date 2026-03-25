@@ -53,6 +53,7 @@ print(model.predict(X))
 accuracy = np.sum(y == model.predict(X)) / len(y)
 print("Accuracy:", accuracy)
 import matplotlib.pyplot as plt
+# Updated by Chethan
 
 plt.scatter(X[:,0], X[:,1], c=y)
 plt.xlabel("Feature 1")
