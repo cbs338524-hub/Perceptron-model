@@ -1,78 +1,66 @@
-# 🧠 Perceptron Model (Python)
+# Perceptron Model (Python)
 
-This project implements a Perceptron algorithm from scratch using Python. It is a basic model in Machine Learning used for binary classification.
-
----
-
-## 📌 Features
-- Perceptron implemented from scratch
-- Tested on AND & OR datasets
-- Accuracy calculation
-- Data visualization using matplotlib
+## Description
+This project implements a Perceptron algorithm from scratch using Python. It is one of the fundamental algorithms in Machine Learning used for binary classification tasks.
 
 ---
 
-## ⚙️ Technologies Used
+## Features
+- Binary classification using Perceptron
+- Implementation from scratch (no ML libraries)
+- Simple and easy-to-understand logic
+- Demonstrates weight update and learning process
+
+---
+
+## Technologies Used
 - Python
 - NumPy
-- Matplotlib
 
 ---
 
-## ▶️ How to Run
-
-```bash
-python perceptron.py
-```
-
----
-
-## 📊 Output
-
-### AND Gate Output
-```
-Predictions: [0, 0, 0, 1]
-```
-
-### OR Gate Output
-```
-[0, 1, 1, 1]
-Accuracy: 1.0
-```
+## How to Run
+1. Install Python (version 3.x recommended)
+2. Install required library:
+   pip install numpy
+3. Run the program:
+   python perceptron.py
 
 ---
 
-## 📷 Output Screenshot
-
-(Add your screenshot here)
-
-![Output](output.png)
+## Example Output
+Input: [1, 0]  
+Output: 1  
 
 ---
 
-## 📉 Graph
-<img width="795" height="632" alt="Screenshot 2026-03-20 204441" src="https://github.com/user-attachments/assets/d7227ba3-2dc3-4860-94c4-5c94881b474c" />
+## Algorithm Explanation
+The Perceptron is a supervised learning algorithm used for classification. It works as follows:
 
-
-![Graph](graph.png)
-
----
-
-## 📊 Performance
-- Accuracy: 100%
-- Works well for linearly separable data
+- Initialize weights and bias
+- For each training example:
+  - Calculate weighted sum
+  - Apply activation function
+  - Compare predicted output with actual output
+  - Update weights if prediction is incorrect
 
 ---
 
-## ⚠️ Limitations
-- Cannot solve XOR problem
-- Only works for linear data
+## Project Structure
+- perceptron.py → Main implementation file
+- README.md → Project documentation
 
 ---
 
-## 📚 Conclusion
-Perceptron is simple and effective for basic classification but limited for complex problems.
+## Conclusion
+This project demonstrates how a basic neural network model (Perceptron) can be implemented and used for binary classification problems. It helps in understanding the core concepts of machine learning algorithms.
 
+---
 
+## Team Members
+- Akhil Adapur (GitHub: Akhil200626)
+- Chethan BS (GitHub: cbs338524)
+- Abdul Nafi (GitHub: Abdul-Nafey-11)
+- Al Mohammad Areez (GitHub: AlMohammadAreez)
 
-
+---
