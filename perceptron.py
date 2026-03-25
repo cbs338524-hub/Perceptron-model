@@ -60,3 +60,8 @@ plt.xlabel("Feature 1")
 plt.ylabel("Feature 2")
 plt.title("Dataset Visualization")
 plt.show()
+## Team Members
+- Akhil Adapur (GitHub: Akhil200626)
+- Chethan BS (GitHub: cbs338524)
+- Abdul Nafi (GitHub: Abdul-Nafey-11)
+- Al Mohammad Areez (GitHub: AlMohammadAreez)
